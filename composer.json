@@ -1,0 +1,28 @@
+{
+    "name": "lizhineng/laravel-sharable",
+    "description": "Associate sharing feature to any models.",
+    "authors": [
+        {
+            "name": "Li Zhineng",
+            "email": "im@zhineng.li"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lizhineng\\Sharable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lizhineng\\Sharable\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
